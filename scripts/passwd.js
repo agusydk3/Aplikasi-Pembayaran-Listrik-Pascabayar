@@ -1,7 +1,7 @@
 const bcrypt = require('bcryptjs');
 
 // Password yang ingin di-hash
-const password = 'admin123'; // atau password lain yang ingin Anda gunakan
+const password = '123456'; // atau password lain yang ingin Anda gunakan
 
 // Generate salt (10-12 adalah nilai yang umum digunakan)
 const saltRounds = 10;

@@ -24,6 +24,7 @@ CREATE TABLE IF NOT EXISTS pelanggan (
     password VARCHAR(255) NOT NULL,
     nomor_kwh VARCHAR(20) UNIQUE NOT NULL,
     nama_pelanggan VARCHAR(100) NOT NULL,
+    alamat VARCHAR(255) NOT NULL,
     id_tarif INTEGER REFERENCES tarif(id_tarif)
 );
 
